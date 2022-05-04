@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script src="../smart/smartUtil.js"></script>
+
+    <!--fetch.umd.js and core-js required for the Fetch API and Promises in IE-->
+    <script type="text/javascript" src="/assets/js/fetch.umd.js"></script>
+    <script src="https://unpkg.com/core-js-bundle@3.14.0/minified.js"></script>
+  </head>
+  <body>
+    <script>
+      window.fetch("https://video.trontv.com/assets/js/bucketConfigVerified.json")
+        .then(function(response) {
+          if (!response.ok) {
+            throw new Error("HTTP error! status:" + response.status);
+          }
+          return response.json();
+        })
+        .then(function(data) {
+          window.BucketConfig = data;
+          var bucket = getCurrentBucketName();
+          var adURL = getBucketProperty(bucket, "adURL");
+
+          // If in a browser, redirect to trontv
+          if (window.external.getFocus == undefined) {
+            //print the adURL for regression  tests.
+            console.log(adURL);
+            window.location.replace("https://trontv.com/#!/p/aUHgbV8r");
+          }
+          // If in a client redirect to the ad URL from the bucket
+          else {
+            // Pass the query string
+            var params = window.location.search;
+            // Remove certain specific arguments
+            const regex = /&id=[^&]*/g;
+            params = params.replace(regex, '');
+            // The next line is needed for the reload to work with chrome:
+            //  https://stackoverflow.com/questions/17296585/refresh-iframe-from-inside-itself-with-different-domains
+            document.location.href = document.location.href;
+            window.location.replace(adURL + params);
+          }
+        })
+        .catch(function(error) {
+          console.log(error);
+        });
+    </script>
+  </body>
+</html>

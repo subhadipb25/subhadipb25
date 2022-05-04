@@ -1,0 +1,334 @@
+﻿Log file open, 09/22/21 07:54:35
+AppSettings: Version: 12.2.18-17526701+++Portal+Release-Live
+AppSettings: CommandLine: "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent
+AppSettings: RunningCommandlet: false
+AppSettings: ForwardMessage: false
+AppSettings: ForcedRestart: false
+AppSettings: bAllowMultipleInstances: false
+AppSettings: bBootstrap: false
+AppSettings: bSilent: true
+AppSettings: bForceDeprecated: false
+AppSettings: bDoesCompiledPlatformMatch: true
+AppSettings: bIsUnattended: false
+AppSettings: bAllowFullAppTesting: false
+AppSettings: bIsExecutingAutomation: false
+AppSettings: Mode: default
+LogInit: WinPlatform: User is admin: true
+LogInit: WinPlatform: Process ran as admin: false
+LogInit: WinPlatform: Process is elevated: false
+LogInit: WinPlatform: Process integrity level: Medium
+LogInit: WinPlatform: Running 64bit App: true
+LogInit: WinPlatform: Running 64bit OS: true
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogInit: Build: 12.2.18-17526701+++Portal+Release-Live
+LogInit: Engine Version: 4.23.0-17526701+++Portal+Release-Live
+LogInit: Compatible Engine Version: 4.23.0-17526701+++Portal+Release-Live
+LogInit: Net CL: 17526701
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz, GPU: Intel(R) HD Graphics 5500
+LogInit: Compiled (64-bit): Sep 15 2021 21:11:02
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++Portal+Release-Live
+LogInit: Display: Command Line: "C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe" -silent -SaveToUserDir -Messaging -enablehighdpi
+LogInit: Base Directory: C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/subha/AppData/Local/EpicGamesLauncher/Saved/Config/Windows/Engine.ini]
+[2021.09.22-02.24.37:097][  0]LogInit: Computer: DESKTOP-95A9LOM
+[2021.09.22-02.24.37:097][  0]LogInit: User: subha
+[2021.09.22-02.24.37:097][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.09.22-02.24.37:097][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.09.22-02.24.37:130][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.09.22-02.24.37:130][  0]LogMemory: Platform Memory Stats for Windows
+[2021.09.22-02.24.37:130][  0]LogMemory: Process Physical Memory: 24.50 MB used, 24.50 MB peak
+[2021.09.22-02.24.37:130][  0]LogMemory: Process Virtual Memory: 49.44 MB used, 49.44 MB peak
+[2021.09.22-02.24.37:130][  0]LogMemory: Physical Memory: 2474.96 MB used,  5639.30 MB free, 8114.26 MB total
+[2021.09.22-02.24.37:130][  0]LogMemory: Virtual Memory: 4324.30 MB used,  134213400.00 MB free, 134217728.00 MB total
+[2021.09.22-02.24.38:707][  0]LogAssetRegistry: FAssetRegistry took 0.0195 seconds to start up
+[2021.09.22-02.24.38:767][  0]LogUObjectArray: 2427 objects as part of root set at end of initial load.
+[2021.09.22-02.24.38:767][  0]LogUObjectAllocator: 357744 out of 0 bytes used by permanent object pool.
+[2021.09.22-02.24.38:767][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.09.22-02.24.38:768][  0]LogInit: Using OS detected language (en-US).
+[2021.09.22-02.24.38:768][  0]LogInit: Using OS detected locale (en-GB).
+[2021.09.22-02.24.39:053][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.09.22-02.24.39:080][  0]LogInit: Using OS detected language (en-US).
+[2021.09.22-02.24.39:080][  0]LogInit: Using OS detected locale (en-GB).
+[2021.09.22-02.24.39:081][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.09.22-02.24.39:141][  0]LogTextLocalizationManager: Compacting localization data took   0.21ms
+[2021.09.22-02.24.39:193][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000169 seconds
+[2021.09.22-02.24.39:381][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
+[2021.09.22-02.24.41:459][  0]LogInit: Using libcurl 7.55.1-DEV
+[2021.09.22-02.24.41:459][  0]LogInit:  - built for x86_64-pc-win32
+[2021.09.22-02.24.41:459][  0]LogInit:  - supports SSL with OpenSSL/1.1.1
+[2021.09.22-02.24.41:459][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+[2021.09.22-02.24.41:459][  0]LogInit:  - other features:
+[2021.09.22-02.24.41:459][  0]LogInit:      CURL_VERSION_SSL
+[2021.09.22-02.24.41:459][  0]LogInit:      CURL_VERSION_LIBZ
+[2021.09.22-02.24.41:459][  0]LogInit:      CURL_VERSION_IPV6
+[2021.09.22-02.24.41:459][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2021.09.22-02.24.41:459][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2021.09.22-02.24.41:459][  0]LogInit:      CURL_VERSION_IDN
+[2021.09.22-02.24.41:474][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2021.09.22-02.24.41:474][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2021.09.22-02.24.41:474][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2021.09.22-02.24.41:474][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2021.09.22-02.24.41:474][  0]LogInit:  - MaxHostConnections = 0  - Libcurl will NOT limit the number of connections to a host
+[2021.09.22-02.24.41:474][  0]LogInit:  - LocalHostAddr = Default
+[2021.09.22-02.24.41:474][  0]LogInit:  - BufferSize = 65536
+[2021.09.22-02.25.18:842][  0]LogSlate: Using FreeType 2.6.0
+[2021.09.22-02.25.19:545][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.09.22-02.25.21:217][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.09.22-02.25.21:217][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.09.22-02.25.21:264][  0]LogWindows: EnumDisplayDevices:
+[2021.09.22-02.25.21:264][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2021.09.22-02.25.21:264][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2021.09.22-02.25.21:264][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2021.09.22-02.25.21:264][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.09.22-02.25.42:454][  0]Portal: Constructing App Data Access Layer
+[2021.09.22-02.25.42:672][  0]LogBuildInfoRepository: Using LauncherLabel Live-EternalKnight
+[2021.09.22-02.25.50:149][  0]LogSelfUpdateService: Initialising for EpicGamesLauncher:EpicGamesLauncher:EpicGamesLauncher:12.2.18-17526701+++Portal+Release-Live-Windows.
+[2021.09.22-02.25.58:570][  0]LogStreaming: Warning: Failed to read file 'C:/ProgramData/Epic/EpicGamesLauncher/Data/LauncherUpdate.manifest' error.
+[2021.09.22-02.25.58:570][  0]LogGeForceNowManager: GeForceNow SDK initialized: 1
+[2021.09.22-02.25.58:570][  0]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-02.25.59:101][  0]Portal: Constructing App Domain Layer
+[2021.09.22-02.26.07:934][  0]LogWebBrowser: Registering ContextId=TEMP.
+[2021.09.22-02.26.09:137][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealEngineLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found matching shortcut: false
+[2021.09.22-02.26.10:807][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found matching shortcut: false
+[2021.09.22-02.26.10:807][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found matching shortcut: false
+[2021.09.22-02.26.10:807][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\Users\Public\Desktop\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:807][  0]WinPlatform: Found matching shortcut: true
+[2021.09.22-02.26.10:807][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealEngineLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found matching shortcut: false
+[2021.09.22-02.26.10:870][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found matching shortcut: false
+[2021.09.22-02.26.10:870][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found matching shortcut: false
+[2021.09.22-02.26.10:870][  0]WinPlatform: Checking if shortcut exists. LinkPath: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Epic Games Launcher.lnk LinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe LinkWorkingDir: C:\Program Files (x86)\Epic Games.
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found existing shortcut. ExistingLinkTargetPath: C:\Program Files (x86)\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe ExistingLinkWorkingDir: C:\Program Files (x86)\Epic Games
+[2021.09.22-02.26.10:870][  0]WinPlatform: Found matching shortcut: true
+[2021.09.22-02.26.23:317][  0]LogCommunityPortalAppManager: FCommunityPortalEnumerateInstalledRunnable: Discovered 1 item files.
+[2021.09.22-02.26.23:317][  0]LogCommunityPortalAppManager: FCommunityPortalEnumerateInstalledRunnable: Loaded 1 sidecars in 0.0 secs
+[2021.09.22-02.26.23:317][  0]Manifest Check: 0x000001453CC6F240 0584d2013f0149a791e7b9bad0eec102:6e563a2c0f5f46e3b4e88b5f4ed50cca:9d2d0eb64d5c44529cece33fe2a46482:1.0.2372.2_0 CPAM Line: 3431 Desc: HandleInstalledManifestReceived 
+[2021.09.22-02.26.23:317][  0]LogCommunityPortalAppManager: FCommunityPortalAppManagerImpl: Found Installed Manifest for 0584d2013f0149a791e7b9bad0eec102:6e563a2c0f5f46e3b4e88b5f4ed50cca:9d2d0eb64d5c44529cece33fe2a46482:1.0.2372.2_0
+[2021.09.22-02.26.23:317][  0]LogCommunityPortalAppManager: FCommunityPortalAppManagerImpl: Keeping discovered manifest
+[2021.09.22-02.26.23:317][  0]LogEOSInstallService: Detected valid EOS installation at path C:\Program Files (x86)\Epic Games\Epic Online Services\service\EpicOnlineServicesHost.exe.
+[2021.09.22-02.26.23:317][  0]LogEOSInstallService: EOS detected during initialization: true.
+[2021.09.22-02.26.24:067][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.09.22-02.26.38:385][  0]Portal: Constructing App Presentation Layer
+[2021.09.22-02.26.38:572][  0]FCommunityPortalManagerImpl::SetUnrealEnginePortalViewModel UEPVM:2
+[2021.09.22-02.26.41:673][  1]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-02.26.42:002][  2]FCommunityPortalManagerImpl: Change State CPManagerState_Init->CPManagerState_UserLogin
+[2021.09.22-02.26.42:017][  2][SignInRouter] GoToUrl('/id/login')
+[2021.09.22-02.26.42:017][  2][SignInRouter]    Resolved To: '/id/login'
+[2021.09.22-02.26.42:017][  2][SignInRouter]    Best Match: invalid - [0] states compared
+[2021.09.22-02.26.42:049][  2][SignInRouter]    Navigation Canceled.
+[2021.09.22-02.26.42:049][  2][SignInRouter] GoToUrl('/id/login')
+[2021.09.22-02.26.42:049][  2][SignInRouter]    Resolved To: '/id/login'
+[2021.09.22-02.26.42:049][  2][SignInRouter]    Best Match: invalid - [0] states compared
+[2021.09.22-02.26.42:049][  2][SignInRouter]    Navigation Canceled.
+[2021.09.22-02.26.44:064][ 44]LogSelfUpdateService: Launcher build response EpicGamesLauncher:EpicGamesLauncher:EpicGamesLauncher:12.2.18-17526701+++Portal+Release-Live-Windows.
+[2021.09.22-02.26.44:064][ 44]LogSelfUpdateService: Launcher is up-to-date with the latest available version.
+[2021.09.22-02.26.44:064][ 44]LogSelfUpdateService: Waiting for next version update.
+[2021.09.22-02.26.44:064][ 44]LogEmsContentProvider: Content build response EpicGamesLauncherContent:EpicGamesLauncherContent:EpicGamesLauncherContent:++Portal+Main+prod-CL-17573751-Windows.
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: InstallerId: 9CF93C3F46DDBDEE5644AFBF6A90799B
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: ActionType: Repair
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: CurrentManifest: EpicGamesLauncherContent ++Portal+Main+prod-CL-17573751-Windows (JvdamVkMmevfMBu5YXV-tr1LeZ0)
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: InstallManifest: EpicGamesLauncherContent ++Portal+Main+prod-CL-17573751-Windows (JvdamVkMmevfMBu5YXV-tr1LeZ0)
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: InstallTags: 
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: ValidTags: 
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: InstallDirectory: C:/ProgramData/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: StagingDirectory: C:/ProgramData/Epic/EpicGamesLauncher/Data/EMS/stage/
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: BackupDirectory: 
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: CloudDirectories: http://download.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: CloudDirectories: http://download2.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: CloudDirectories: http://download3.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: CloudDirectories: http://download4.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: CloudDirectories: http://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/CloudDir
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: CloudDirectories: http://fastly-download.epicgames.com/Builds/UnrealEngineLauncher/CloudDir
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: InstallMode: NonDestructiveInstall
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: VerifyMode: ShaVerifyAllFiles
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: DeltaPolicy: Skip
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: bRunRequiredPrereqs: true
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: bAllowConcurrentExecution: false
+[2021.09.22-02.26.44:095][ 44]LogBuildPatchServices: Build Config: DownloadRateLimitBps: 0
+[2021.09.22-02.26.44:095][ 44]LogEmsContentProvider: Installer started.
+[2021.09.22-02.26.44:173][ 46]LogBuildPatchServices: Starting Installation
+[2021.09.22-02.26.45:017][ 64]LogBuildPatchServices: Requiring 0 files
+[2021.09.22-02.26.56:469][278]BuildPatchResumeData file found: false
+[2021.09.22-02.26.56:469][278]LogBuildPatchServices: Performing a repair operation
+[2021.09.22-02.26.56:704][283]LogBuildPatchServices: File construction complete
+[2021.09.22-02.26.56:797][285]LogBuildPatchServices: Staged install complete
+[2021.09.22-02.26.56:797][285]LogBuildPatchServices: Running backup and stage relocation
+[2021.09.22-02.26.56:844][286]LogBuildPatchServices: Relocation complete 1
+[2021.09.22-02.26.56:985][289]LogBuildPatchServices: Verifying install
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Verify stage complete 1
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Deleting staging area.
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Reset MM.
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: InstallerId: 9CF93C3F46DDBDEE5644AFBF6A90799B
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumFilesInBuild: 432
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumFilesOutdated: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumFilesToRemove: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumChunksRequired: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ChunksQueuedForDownload: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ChunksLocallyAvailable: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ChunksInChunkDbs: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumChunksDownloaded: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumChunksRecycled: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumChunksReadFromChunkDbs: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumFailedDownloads: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumBadDownloads: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumAbortedDownloads: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumRecycleFailures: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumChunksStoreBooted: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumDriveStoreChunkLoads: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumDriveStoreLoadFailures: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumChunkDbChunksFailed: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: TotalDownloadedData: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ActiveRequestCountPeak : 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: AverageDownloadSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: PeakDownloadSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: TotalReadData: 53226278
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: AverageDiskReadSpeed: 12,444,353.449 bytes (12.444 MB, 11.867 MiB) /sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: PeakDiskReadSpeed: 12,444,353.449 bytes (12.444 MB, 11.867 MiB) /sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: TotalWrittenData: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: AverageDiskWriteSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: PeakDiskWriteSpeed: 0 bytes (0 B, 0 B) /sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumFilesConstructed: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: InitializeTime: 12.7 sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: TheoreticalDownloadTime: 0 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ConstructTime: 265 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: MoveFromStageTime: 52 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: FileAttributesTime: 128 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: VerifyTime: 20.5 sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: CleanUpTime: 6 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: PrereqTime: 0 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ProcessPausedTime: 0 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ProcessActiveTime: 33.4 sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ProcessExecuteTime: 33.4 sec
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ProcessSuccess: TRUE
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ErrorCode: OK
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: FailureReasonText: The operation was successful.
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: FailureType: SUCCESS
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: NumInstallRetries: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: FinalProgressValue: 1.000000
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: OverallRequestSuccessRate: 0.000000
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ExcellentDownloadHealthTime: 0 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: GoodDownloadHealthTime: 0 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: OkDownloadHealthTime: 0 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: PoorDownloadHealthTime: 308 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: DisconnectedDownloadHealthTime: 0 ms
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: AverageMemoryStoreUse: 0.0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: PeakMemoryStoreUse: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: AverageMemoryStoreRetained: 0.0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: PeakMemoryStoreRetained: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: MemoryStoreSize: 336
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ProcessRequiredDiskSpace: 0
+[2021.09.22-02.27.17:547][728]LogBuildPatchServices: Build Stat: ProcessAvailableDiskSpace: 0
+[2021.09.22-02.27.17:547][728]LogEmsContentProvider: Installer complete. Success:1.
+[2021.09.22-02.27.17:547][728]LogEmsContentProvider: Waiting for next version update.
+[2021.09.22-02.31.41:709][386]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-02.36.41:728][792]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-02.41.41:748][206]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-02.46.41:762][589]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-02.51.41:783][861]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-02.56.41:788][268]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.01.41:822][678]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.06.41:841][ 37]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.11.41:850][454]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.16.41:890][873]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.21.41:917][259]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.26.41:950][657]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.31.41:988][ 55]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.36.42:005][455]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.41.42:033][862]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.46.42:079][264]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.51.42:124][671]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-03.56.42:165][ 77]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.01.42:201][483]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.06.42:241][905]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.11.42:284][303]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.12.42:343][581]LogHttp: Warning: 000001452D0CD1C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B37161A8D-43C7-A4CB-F831-B183D5A6E29F%7D&AppID=UnrealEngineLauncher.Release&AppVersion=12.2.18-17526701%2B%2B%2BPortal%2BRelease-Live&UserID=a4e89efc4631d9e8636671bf6a807085%7C28203ed436f44f89b715fc149bda4031%7C13a39142-12f6-4f3a-b461-d6d893e7b631&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2021.09.22-04.12.42:343][581]LogHttp: Warning: 000001452D0CD1C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.09.22-04.12.42:344][581]LogHttp: Warning: 000001452D0CD1C0: libcurl info message cache 0 (Connection 23 seems to be dead!)
+[2021.09.22-04.12.42:344][581]LogHttp: Warning: 000001452D0CD1C0: libcurl info message cache 1 (Closing connection 23)
+[2021.09.22-04.12.42:344][581]LogHttp: Warning: 000001452D0CD1C0: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.09.22-04.12.42:344][581]LogHttp: Warning: 000001452D0CD1C0: libcurl info message cache 3 (Closing connection 24)
+[2021.09.22-04.12.42:391][582]LogHttp: Warning: Retry 1 on https://datarouter-prod.ak.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B37161A8D-43C7-A4CB-F831-B183D5A6E29F%7D&AppID=UnrealEngineLauncher.Release&AppVersion=12.2.18-17526701%2B%2B%2BPortal%2BRelease-Live&UserID=a4e89efc4631d9e8636671bf6a807085%7C28203ed436f44f89b715fc149bda4031%7C13a39142-12f6-4f3a-b461-d6d893e7b631&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.09.22-04.12.42:437][583]LogHttp: Warning: 000001452D0CD1C0: invalid HTTP response code received. URL: https://datarouter-prod.ak.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B37161A8D-43C7-A4CB-F831-B183D5A6E29F%7D&AppID=UnrealEngineLauncher.Release&AppVersion=12.2.18-17526701%2B%2B%2BPortal%2BRelease-Live&UserID=a4e89efc4631d9e8636671bf6a807085%7C28203ed436f44f89b715fc149bda4031%7C13a39142-12f6-4f3a-b461-d6d893e7b631&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2021.09.22-04.12.42:437][583]LogHttp: Warning: 000001452D0CD1C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.09.22-04.12.42:437][583]LogHttp: Warning: 000001452D0CD1C0: libcurl info message cache 4 (Could not resolve host: datarouter-prod.ak.epicgames.com)
+[2021.09.22-04.12.42:437][583]LogHttp: Warning: 000001452D0CD1C0: libcurl info message cache 5 (Closing connection 25)
+[2021.09.22-04.12.42:485][584]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B37161A8D-43C7-A4CB-F831-B183D5A6E29F%7D&AppID=UnrealEngineLauncher.Release&AppVersion=12.2.18-17526701%2B%2B%2BPortal%2BRelease-Live&UserID=a4e89efc4631d9e8636671bf6a807085%7C28203ed436f44f89b715fc149bda4031%7C13a39142-12f6-4f3a-b461-d6d893e7b631&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.09.22-04.16.42:287][661]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.21.42:300][ 55]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.26.42:334][452]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.31.42:348][854]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.36.42:346][268]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.41.42:380][668]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.46.42:408][ 69]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.51.42:442][469]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-04.56.42:467][870]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.01.42:493][271]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.06.42:520][672]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.11.42:546][ 73]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.12.46:822][444]LogEmsContentProvider: Content build response EpicGamesLauncherContent:EpicGamesLauncherContent:EpicGamesLauncherContent:++Portal+Main+prod-CL-17573751-Windows.
+[2021.09.22-05.12.46:822][444]LogEmsContentProvider: Waiting for next version update.
+[2021.09.22-05.12.46:822][444]LogSelfUpdateService: Launcher build response EpicGamesLauncher:EpicGamesLauncher:EpicGamesLauncher:12.2.18-17526701+++Portal+Release-Live-Windows.
+[2021.09.22-05.12.46:822][444]LogSelfUpdateService: Launcher is up-to-date with the latest available version.
+[2021.09.22-05.12.46:822][444]LogSelfUpdateService: Waiting for next version update.
+[2021.09.22-05.16.42:587][474]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.21.42:622][875]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.26.42:652][278]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.31.42:689][695]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.36.42:734][146]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.41.42:735][591]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.46.42:735][ 37]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.51.42:749][495]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-05.56.42:780][951]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.01.42:812][397]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.06.42:858][847]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.11.42:872][301]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.16.42:887][755]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.21.42:919][194]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.26.42:934][647]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.31.42:953][ 95]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.36.42:952][543]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.41.42:966][992]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.46.42:995][442]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.51.42:995][891]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-06.56.43:003][360]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.01.43:007][892]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.06.43:042][427]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.11.43:056][965]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.16.43:080][508]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.21.43:081][ 37]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.26.43:101][562]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.31.43:145][ 92]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.36.43:162][646]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.41.43:158][178]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.46.43:200][720]LogGeForceNowManager: GeForceNow SDK is running in cloud state: 0
+[2021.09.22-07.48.13:284][691]LogHttp: Warning: 000001452D0C9980: HTTP request timed out after 30.01 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B37161A8D-43C7-A4CB-F831-B183D5A6E29F%7D&AppID=UnrealEngineLauncher.Release&AppVersion=12.2.18-17526701%2B%2B%2BPortal%2BRelease-Live&UserID=a4e89efc4631d9e8636671bf6a807085%7C28203ed436f44f89b715fc149bda4031%7C13a39142-12f6-4f3a-b461-d6d893e7b631&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.09.22-07.48.13:285][691]LogHttp: Warning: 000001452D0C9980: request failed, libcurl error: 0 (No error)
+[2021.09.22-07.48.13:285][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 0 (Connection 68 seems to be dead!)
+[2021.09.22-07.48.13:285][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 1 (Closing connection 68)
+[2021.09.22-07.48.13:286][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.09.22-07.48.13:286][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 3 (  Trying 52.73.107.241...)
+[2021.09.22-07.48.13:286][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 4 (TCP_NODELAY set)
+[2021.09.22-07.48.13:287][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 5 (connect to 52.73.107.241 port 443 failed: Timed out)
+[2021.09.22-07.48.13:287][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 6 (  Trying 100.25.227.186...)
+[2021.09.22-07.48.13:288][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 7 (TCP_NODELAY set)
+[2021.09.22-07.48.13:288][691]LogHttp: Warning: 000001452D0C9980: libcurl info message cache 8 (Closing connection 69)
+[2021.09.22-07.48.13:329][692]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B37161A8D-43C7-A4CB-F831-B183D5A6E29F%7D&AppID=UnrealEngineLauncher.Release&AppVersion=12.2.18-17526701%2B%2B%2BPortal%2BRelease-Live&UserID=a4e89efc4631d9e8636671bf6a807085%7C28203ed436f44f89b715fc149bda4031%7C13a39142-12f6-4f3a-b461-d6d893e7b631&AppEnvironment=datacollector-binary&UploadType=eteventstream
